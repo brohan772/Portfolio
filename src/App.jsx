@@ -23,7 +23,7 @@ function App() {
     if (!loading) {
       const timer = setTimeout(() => {
         setShowParticles(true);
-      }, 500);
+      }, 150);
       
       return () => clearTimeout(timer);
     }

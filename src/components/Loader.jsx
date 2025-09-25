@@ -5,9 +5,8 @@ const Loader = ({ finishLoading }) => {
   const [counter, setCounter] = useState(0);
   
   useEffect(() => {
-    // Fixed loading time of 1.5 seconds max
-    const totalDuration = 1500; // 1.5 seconds in milliseconds
-    const steps = 10; // Number of steps to reach 100%
+    const totalDuration = 600;
+    const steps = 6;
     const interval = totalDuration / steps;
     
     const timer = setInterval(() => {
@@ -50,7 +49,7 @@ const Loader = ({ finishLoading }) => {
     <motion.div 
       className="fixed inset-0 z-50 flex items-center justify-center bg-slate-50 dark:bg-slate-900"
       initial={{ opacity: 1 }}
-      exit={{ opacity: 0, transition: { duration: 0.4 } }}
+      exit={{ opacity: 0, transition: { duration: 0.25 } }}
     >
       <div className="text-center">
         <motion.div

@@ -63,15 +63,15 @@ export default function Home() {
             variants={itemVariants}
             className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
           >
-            <span className="block mt-2 gradient-text">A Full Stack</span>
-            <span className="block mt-2 gradient-text">Software Developer</span>
+            <span className="block mt-2 gradient-text">Backend .NET Developer</span>
+            <span className="block mt-2 gradient-text">Building scalable APIs on Azure</span>
             </motion.h1>
           
           <motion.p 
             variants={itemVariants}
             className="text-grey-600 dark:text-grey-400 text-lg md:text-xl max-w-3xl mx-auto mb-8"
           >
-            Welcome to my website!
+            I design and build secure, high-performance services with C#, .NET, SQL, and Azure, guided by SOLID and TDD.
           </motion.p>
           
           <motion.div 
